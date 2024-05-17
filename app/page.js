@@ -77,15 +77,15 @@ const HomePage = () => {
         </div>
       </div>
       <div className='slider-heading'>
-        <h2><span>Women's</span> NEW ARRIVALS</h2>
+        <h2><span>Women&aposs</span> NEW ARRIVALS</h2>
         <button className='button'>
           SHOP ALL
         </button>
       </div>
       <div className='sliders'>
         <div className='slider-buttons'>
-          <span onClick={() => setWomen(true)} className={women ? 'bg-gray' : ''}>Women's</span>
-          <span onClick={() => setWomen(false)} className={!women ? 'bg-gray' : ''}>Men's</span>
+          <span onClick={() => setWomen(true)} className={women ? 'bg-gray' : ''}>Women&aposs</span>
+          <span onClick={() => setWomen(false)} className={!women ? 'bg-gray' : ''}>Men&aposs</span>
         </div>
 
         <Swiper
@@ -202,15 +202,15 @@ const HomePage = () => {
         </div>
 
         <div className='slider-heading'>
-          <h2><span>Women's</span> NEW ARRIVALS</h2>
+          <h2><span>Women&aposs</span> NEW ARRIVALS</h2>
           <button className='button'>
             SHOP ALL
           </button>
         </div>
 
         <div className='slider-buttons'>
-          <span onClick={() => setMen(true)} className={men ? 'bg-gray' : ''}>Women's</span>
-          <span onClick={() => setMen(false)} className={!men ? 'bg-gray' : ''}>Men's</span>
+          <span onClick={() => setMen(true)} className={men ? 'bg-gray' : ''}>Women&aposs</span>
+          <span onClick={() => setMen(false)} className={!men ? 'bg-gray' : ''}>Men&aposs</span>
         </div>
 
         <Swiper
